@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar {
+            background-color: #0b2545;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            height: 40px;
+        }
+        .nav-links {
+            display: flex;
+            list-style-type: none;
+            gap: 30px;
+            align-items: center;
+        }
+        .nav-links a{
+            color: white;
+            text-decoration: none;
+        }
+        div{
+            color: white;
+            font-size: 30px;
+            padding-bottom: 10px;
+        }
+        #icon{
+            margin-left: 40px;
+            margin-right: 20px;
+        }
+        .banner{
+            background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("img.jpg"); 
+            /* background-color: red; */
+            background-size: cover;
+            background-position: 70%;
+            height: 380;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-left: 60px;
+        }
+        .content{
+            max-width: 50%;
+        }
+        .content h1{
+            color: white;
+            font-size: 38px;
+            font-family: sans-serif;
+            font-weight: bold;
+            line-height: 1.2;
+            margin-bottom: 15px;
+        }
+        .content p{
+            color: #e2e8f0;
+            font-size: 16px;
+            font-family: sans-serif;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+        .btn-started{
+            background-color: #7c3aed;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #content area{
+            height: 900px;
+        }
+        footer{
+            background-color: #0b2545;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+            &#128366;  EduWorld
+            </div>
+            <ul class="nav-links">
+            <li><a href="#"> Home</a></li>
+            <li><a href="#"> Courses</a></li>
+            <li><a href="#"> About</a></li>
+            <li><a href="#"> Contact</a></li>
+            <li><a href="#" id="icon">&#128269;</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+        <div class="content">
+            <h1>Your Learning <br> Journey Starts Here</h1>
+            <p>Access courses, resources and guidance <br> to achieve your goals.</p>
+            <button class="btn-started">Get Started</button>
+        </div>
+        </section>
+    </main>
+    <div id="content area">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, alias error aliquam deserunt praesentium nisi? Delectus doloremque ex, rem reiciendis a fugit harum eligendi laudantium voluptatum quam autem accusantium molestias?</p>
+    </div>
+    <footer>&copy; 2025 EduWorld.All rights reserved.</footer>
+</body>
+</html>
